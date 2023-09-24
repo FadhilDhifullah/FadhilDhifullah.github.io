@@ -1,0 +1,202 @@
+body, ul, h1, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #292c34;
+    color: #fdfdfd;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.yodayo-logo {
+    height: 24px;
+}
+.discord-logo img {
+    height: 24px;
+}
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fdfdfd;
+    margin: 3px 0;
+}
+.menu {
+    display: flex;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+.menu li {
+    margin-right: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fdfdfd;
+}
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+.main-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.ETA-boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ETA-box {
+    width: 100px;
+    height: 50px;
+    background-color: #f597e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #661463;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.ETA-box a {
+    text-decoration: none;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.video-wrapper {
+    max-width: 800px; 
+    width: 100%;
+    max-height: 450px;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+.video-wrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.vTubers-desc {
+    margin-top: 20px;
+    background-color: #f597e8;
+    text-align: center;
+    padding: 50px;
+    color: #292c34;
+    border-radius: 30px 30px 0 0;
+}
+.vTubers-Tittle1 {
+    font-weight: bold;
+    color:#292c34;
+    font-size: 28px;
+}
+.vTubers-Tittle2 {
+    font-weight: bold;
+    color: #fdfdfd;
+    font-size: 28px;
+}
+.vTubers-content {
+    color: #292c34;
+    font-size: 24px;
+}
+.contact {
+    margin-top: 20px;
+    text-align: center;
+}
+.feedback-text {
+    color: gray;
+    font-size: 20px;
+}
+.email {
+    color: #fdfdfd;
+    font-size: 20px;
+    text-decoration: none;
+}
+.discord {
+    color: #fdfdfd;
+    font-size: 20px;
+    text-decoration: none;
+}
+.copyright {
+    color: grey;
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .menu-icon {
+        display: flex;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #292c34;
+        top: 50px;
+        left: 0;
+        right: 0;
+        padding: 10px;
+    }
+    .menu.active {
+        display: flex;
+    }
+    .yodayo-logo {
+        height: 24px;
+    }
+    
+    .discord-logo img {
+        height: 24px;
+    }
+    .ETA-boxes {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .ETA-box {
+        width: 100px;
+        height: 45px;
+        background-color: #f597e8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        color: #661463;
+        font-weight: bold;
+        margin: 0 5px;
+    }
+    .contact {
+        margin-top: 12px;
+        text-align: center;
+    }
+    .feedback-text {
+        color: gray;
+        font-size: 12px;
+    }
+    .email {
+        color: #fdfdfd;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .discord {
+        color: #fdfdfd;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .copyright {
+        color: grey;
+        font-size: 12px;
+    }
+}
